@@ -5,5 +5,6 @@ This project automates the minting of Digital Object Identifiers (DOIs) for inst
 
 ## Usage 
 1. upload excel file
-2. run jupyter notebook to automate the minting of DOIs:
+2. edit datacite-api-config.json with credentials
+3. run jupyter notebook to automate the minting of DOIs:
    the notebook will read the data, call the DataCite API, and update the Excel with newly minted DOIs.
